@@ -64,7 +64,6 @@
         "type": "field",
         "domain": [
             "geosite:cn",
-            "geoip:cn",
             "geosite:category-ads-all"
         ],
         "outboundTag": "blocked"
@@ -86,7 +85,8 @@
       {
         "type": "field",
         "ip": [
-          "geoip:private"
+          "geoip:private",
+          "geoip:cn",
         ],
         "outboundTag": "blocked"
       },
