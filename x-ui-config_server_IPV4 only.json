@@ -40,8 +40,7 @@
         "response": {
           "type": "http"
         }
-      }
-      
+      }  
     }
   ],
   "policy": {
